@@ -2,6 +2,7 @@
 
 :root{
     --main-color: #f73471;
+    --main-col: #7C1E98;
     --black: #000;
     --light-color: #868e96;
 }
@@ -65,6 +66,7 @@ section{
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
+    /* background: var(--main-col); */
     background: #fff;
     font-weight: 500;
     cursor: pointer;
@@ -139,8 +141,9 @@ section{
 .header .icons a{
     font-size: 1.5rem;
     letter-spacing: .1rem;
+    /* color: var(--main-col); */
     color: #fff;
-    background: var(--main-color);
+    background: var(--main-col);
     font-weight: 500;
     text-transform: uppercase;
     padding: .8rem 2rem;
