@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 
 :root{
     --main-color: #f73471;
@@ -16,6 +17,20 @@
     border: none;
     text-transform: capitalize;
     transition: all .2s linear;
+}
+
+.swiper-slide h3{
+    font-family: 'Hurricane';
+}
+
+header .logo{
+    font-family: 'Hurricane';
+    font-size: 30px;
+}
+
+header span{
+    font-family: 'Hurricane';
+    font-size: 30px;
 }
 
 ::selection{
