@@ -23,15 +23,6 @@
     font-family: 'Hurricane';
 }
 
-header .logo{
-    font-family: 'Hurricane';
-    font-size: 30px;
-}
-
-header span{
-    font-family: 'Hurricane';
-    font-size: 30px;
-}
 
 ::selection{
     background: var(--main-color);
